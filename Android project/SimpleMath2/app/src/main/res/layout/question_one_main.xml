@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundApp"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="371dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Answer"
+            android:id="@+id/submitQuestionOne"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_height="103dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/questionOne"
+            android:layout_gravity="center_horizontal|top" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/questionOneAnswer"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:textColor="@color/colorRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayFeedbackError"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:textColor="@color/colorTitle"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/titleHeaders"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/arrow1"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

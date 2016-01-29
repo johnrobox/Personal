@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleMath</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_one_main">Question Number One</string>
+    <string name="question_two">Question Number Two</string>
+    <string name="question_three">Question Number Three</string>
+    <string name="question_four">Question Number Four</string>
+    <string name="success">Success</string>
+    <string name="pick_question">Pick Question</string>
+    <string name="exit">Exit Application</string>
+</resources>

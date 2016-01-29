@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webbox.whoisyourforever">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChoosePage" android:label="@string/choose_your_forever"></activity>
+        <activity android:name=".Description" android:label="@string/about"></activity>
+        <activity android:name=".ProposalResult" android:label="@string/proposal_result"/>
+        <activity android:name=".Testing" android:label="@string/testing"/>
+        <activity android:name=".PickGender" android:label="@string/pick_gender"/>
+    </application>
+
+</manifest>

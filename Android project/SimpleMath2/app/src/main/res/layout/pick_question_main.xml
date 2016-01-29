@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/backgroundApp"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Question Number One"
+            android:id="@+id/question1"
+            android:gravity="center"
+            android:layout_marginBottom="200dp"
+            android:layout_gravity="center_horizontal|bottom" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Question Number Two"
+            android:id="@+id/question2"
+            android:layout_marginBottom="150dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Question Number Three"
+            android:id="@+id/question3"
+            android:gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Question Number Four"
+            android:id="@+id/question4"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/back"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_height="115dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/description"
+            android:text="Please Select Question Bellow"
+            android:textColor="@color/colorBlue"
+            android:layout_gravity="center_horizontal|top" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

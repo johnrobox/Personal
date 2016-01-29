@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/back"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/arrowback"
+            android:layout_gravity="left|top" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_height="95dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/artistName"
+            android:layout_marginTop="-150dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="78dp"
+            android:id="@+id/selfPicture"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-110dp"
+            android:layout_gravity="center_horizontal|top" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-90dp"
+            android:layout_marginLeft="30dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold|italic"
+            android:id="@+id/herStatus"
+            android:layout_gravity="left|center_vertical" />
+
+        <TextView
+            android:layout_width="307dp"
+            android:layout_height="126dp"
+            android:id="@+id/aboutHerSelf"
+            android:layout_marginTop="-20dp"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/yourName"
+            android:layout_marginTop="90dp"
+            android:layout_gravity="center"
+            android:hint="Enter your fullname" />
+
+        <Button
+            android:text="Propose Now"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/proposeButton"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:layout_width="307dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/red"
+            android:id="@+id/forError"
+            android:layout_gravity="center_horizontal|bottom" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

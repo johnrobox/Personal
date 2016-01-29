@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webbox.simplemath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".QuestionOne"
+            android:label="@string/question_one_main">
+        </activity>
+
+        <activity android:name=".QuestionOneSuccess" android:label="@string/success"></activity>
+        <activity android:name=".QuestionTwo" android:label="@string/question_two"></activity>
+        <activity android:name=".QuestionTwoSuccess" android:label="@string/success"></activity>
+        <activity android:name=".QuestionThree" android:label="@string/question_three"></activity>
+        <activity android:name=".QuestionThreeSuccess" android:label="@string/success"></activity>
+        <activity android:name=".QuestionFour" android:label="@string/question_four"></activity>
+        <activity android:name=".QuestionFourSuccess" android:label="@string/success"></activity>
+        <activity android:name=".PickQuestion" android:label="@string/pick_question"></activity>
+        <activity android:name=".ExitApplication" android:label="@string/exit"></activity>
+
+    </application>
+
+</manifest>

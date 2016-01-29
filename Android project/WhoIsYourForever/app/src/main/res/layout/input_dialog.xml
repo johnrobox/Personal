@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="-50dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SELECT YOUR GENDER"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorTitle"
+        android:id="@+id/modalTitle" />
+
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_gravity="right|center_vertical" />
+
+        <!--<TextView-->
+        <!--android:layout_marginLeft="150dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_width="110dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@drawable/boy"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--android:id="@+id/male" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+            <!--android:background="@drawable/girl"-->
+            <!--android:id="@+id/female"-->
+            <!--android:layout_gravity="left|bottom" />-->
+    </FrameLayout>
+
+</LinearLayout>

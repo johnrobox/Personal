@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/wed3"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="300dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_height="120dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/appTitle"
+            android:layout_marginTop="-100dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Start"
+            android:id="@+id/startButton"
+            android:gravity="center"
+            android:layout_marginBottom="150dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:text="Exit"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exitButton"
+            android:layout_marginBottom="80dp"
+            android:layout_gravity="center_horizontal|bottom" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

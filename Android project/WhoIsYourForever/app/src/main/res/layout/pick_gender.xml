@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="464dp">
+
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:id="@+id/back"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/arrowback"
+            android:layout_gravity="left|top" />
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="35sp"
+            android:background="@drawable/boy"
+            android:layout_height="180dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/male"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="40dp"
+             />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:textColor="@color/colorTitle"
+            android:textSize="35sp"
+            android:background="@drawable/girl"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/female"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="190dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="SELECT YOUR GENDER BELOW"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/headeing"
+            android:layout_marginTop="50dp" />
+
+
+    </FrameLayout>
+</LinearLayout>

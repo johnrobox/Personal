@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhoIsYourForever</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_your_forever">SELECT YOUR FOREVER BELOW</string>
+    <string name="about">ABOUT</string>
+    <string name="proposal_result">PROPOSAL RESULT</string>
+    <string name="your_comment">This is my comment</string>
+    <string name="send">Send</string>
+    <string name="testing">Testing</string>
+    <string name="pick_gender">WhoIsYourForever</string>
+</resources>
