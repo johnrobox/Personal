@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Projecat</string>
+    <string name="action_settings">Settings</string>
+    <string name="register">Register</string>
+    <string name="homepage">Homepage</string>
+    <string name="accountSettings">Account Setting</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email">Email</string>
+</resources>
