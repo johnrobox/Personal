@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Ajax Live search using AngularJs | Demo | Cipher Trick</title>
+		<link href="css/site.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	</head>
+	<body ng-app="instantsearch">
+		<div ng-controller="instantSearchCtrl">
+			<h3 class="headName">Ajax Live search using AngularJs</h3>
+			<div class="bar">
+				<input type="text" class="search" ng-model="searchString" placeholder="Enter your search terms" />
+			</div>
+			<ul class="data-ctrl">
+				<li ng-repeat="i in items | searchFor:searchString">
+					<p>{{i.name}}</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="js/site.js"></script>
+</html>
